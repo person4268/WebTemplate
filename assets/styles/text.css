@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0px;
+    margin-top: -52px;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bannerimg {
+    width: 100%;
+    height: 800px;
+    filter: blur(6px);
+    transform: scale(1.03);
+    margin: -5px -10px -10px -5px;
+}
+
+.fullScreenHeader {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+.imageCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
+.largeText {
+    font-size: 50px
+}
+hr {
+    display: block;
+    height: 4px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.imageAlignRight {
+    float: right;
+    vertical-align: middle;
+}
+.pad {
+    padding-left: 50px;
+
+}
+
+#intro {
+    float: left;
+}
+.subtitle {
+    font-size: 10pt;
+    color: #90938b;
+    text-align: center;
+    font-style: italic;
+}
