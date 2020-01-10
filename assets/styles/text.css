@@ -78,3 +78,7 @@ hr {
     -moz-appearance: button;
     appearance: button;
   } 
+
+.buttonStyle:hover {
+    background-color: #3e8e41;
+}
